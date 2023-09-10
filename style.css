@@ -22,7 +22,7 @@ h1 {
 .hero
 {
     background-color: #1F2937;
-    margin: -10px;
+    margin: -10px -10px 0 -10px;
     padding: 10px;
 }
 
@@ -96,4 +96,40 @@ h1 {
     height: 40px;
     border-radius: 8px;
     border: none;
+  }
+
+.random-info {
+    height: 430px;
+    margin: 0 -10px 0 -10px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0;
+    color: #1F2937;
+    font-weight: extra-bold;
+    font-size: 36px;
+}
+
+.square-pics {
+    margin: 0 auto;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+.pics {
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+  }
+
+.img-caption {
+    width: 150px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
   }
